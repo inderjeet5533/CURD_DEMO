@@ -1,8 +1,9 @@
 # CURD_DEMO
 Personal Info with curd demo
 
-
-
+## Curd Operation implemented
+## Database H2
+## Junit Test Cases written.
 
 # Curl requests of all APIs
 -------------------------------------------------
