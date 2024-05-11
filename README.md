@@ -1,5 +1,7 @@
 # CURD_DEMO
 Personal Info with curd demo
+Java version --> 17
+Springboot version 3.2.5
 
 ## Curd Operation implemented
 ## Database H2
@@ -57,3 +59,5 @@ curl --location --request PUT 'localhost:8080/updateinfo/2' \
 curl --location --request DELETE 'localhost:8080/deleteinfo/2'
 
 --------------------------------------------------
+
+# React frontend to use those APIs --> https://github.com/inderjeet5533/curd-demo-reactjs
