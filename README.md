@@ -1,5 +1,7 @@
 # CURD_DEMO
 Personal Info with curd demo
+### Java version --> 17
+### Springboot version 3.2.5
 
 ## Curd Operation implemented
 ## Database H2
@@ -14,7 +16,7 @@ curl --location 'localhost:8080/saveinfo' \
 "firstName": "Inderjeet",
 "lastName": "Singh",
 "email": "xyz@domain.com",
-"contact": "+917036785982",
+"contact": "+911111111111",
 "address": {
 "addressLine1": "sad sd sadasd",
 "addressLine2": "asdas asdasd asd",
@@ -40,7 +42,7 @@ curl --location --request PUT 'localhost:8080/updateinfo/2' \
 "firstName": "XYZ",
 "lastName": "Test",
 "email": "xyz@domain.com",
-"contact": "+917036785982",
+"contact": "+911111111111",
 "address": {
 "addressLine1": "sad sd sadasd",
 "addressLine2": "asdas asdasd asd",
@@ -57,3 +59,5 @@ curl --location --request PUT 'localhost:8080/updateinfo/2' \
 curl --location --request DELETE 'localhost:8080/deleteinfo/2'
 
 --------------------------------------------------
+
+# React frontend to use those APIs --> https://github.com/inderjeet5533/curd-demo-reactjs
