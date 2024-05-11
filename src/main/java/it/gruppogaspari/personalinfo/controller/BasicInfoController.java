@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @Validated
 @RestController
 @Slf4j
+@CrossOrigin(origins = "http://localhost:5173")
 public class BasicInfoController {
 
     private final BasicInfoService basicInfoService;
