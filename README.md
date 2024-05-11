@@ -1,7 +1,7 @@
 # CURD_DEMO
 Personal Info with curd demo
-Java version --> 17
-Springboot version 3.2.5
+### Java version --> 17
+### Springboot version 3.2.5
 
 ## Curd Operation implemented
 ## Database H2
