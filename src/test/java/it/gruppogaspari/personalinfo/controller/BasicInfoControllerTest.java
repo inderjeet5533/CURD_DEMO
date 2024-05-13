@@ -1,5 +1,6 @@
 package it.gruppogaspari.personalinfo.controller;
 
+import it.gruppogaspari.personalinfo.CurdDemoApplication;
 import it.gruppogaspari.personalinfo.TestHelper;
 import it.gruppogaspari.personalinfo.exception.CustomExceptionHandler;
 import it.gruppogaspari.personalinfo.exception.model.CustomErrorResponse;
@@ -21,7 +22,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@SpringBootTest(classes = PersonalInfoApplication.class)
+@SpringBootTest(classes = CurdDemoApplication.class)
 @WebAppConfiguration
 class BasicInfoControllerTest extends TestHelper {
 
