@@ -16,6 +16,18 @@ Personal Info with curd demo
 # To Run docker image
     docker run -p 8080:8080 inderjeet/curd_demo
 
+# To create a tag name 
+    docker tag inderjeet/curd_demo inderjeet5533/curd_demo:latest
+
+# To check created images
+    docker images
+
+# To push image to docker hub
+    docker push inderjeet5533/curd_demo:latest
+
+# to pull image from docker hub 
+    docker pull inderjeet5533/curd_demo
+
 # Curl requests of all APIs
 -------------------------------------------------
 ## saveinfo
