@@ -7,6 +7,15 @@ Personal Info with curd demo
 ## Database H2
 ## Junit Test Cases written.
 
+# To build project maven should be installed in your system.
+    run --> mvn clean install
+
+# To build docker image Docker should be installed in your system.
+    docker build -t inderjeet/curd_demo .
+
+# To Run docker image
+    docker run -p 8080:8080 inderjeet/curd_demo
+
 # Curl requests of all APIs
 -------------------------------------------------
 ## saveinfo
